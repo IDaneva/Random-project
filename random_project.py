@@ -26,11 +26,12 @@ if decision.lower() == "y":
             print("You almost caught the big price ")
 
         if roulette == spins_that_can_be_bought:
-            print("You have reached the spin limit")
+            print("This is the end of this game. You have reached the spin limit")
             break
         else:
             decision = input("Do you want to spin the wheel? [Y/N]  ")
         if decision.lower() == "n":
+            print("Thanks for playing")
             break
 
 
